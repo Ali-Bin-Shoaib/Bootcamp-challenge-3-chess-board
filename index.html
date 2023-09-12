@@ -1,95 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Chess Board</title>
-	</head>
-	<body>
-		<table style="border: 1px solid black">
-			<tbody>
-				<tr>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem">♜</td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem; background-color: lightgray">♞</td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem">♝</td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem; background-color: lightgray">♛</td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem">♚</td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem; background-color: lightgray">♝</td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem">♞</td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem; background-color: lightgray">♜</td>
-				</tr>
-				<tr>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem; background-color: lightgray">♟</td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem">♟</td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem; background-color: lightgray">♟</td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem">♟</td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem; background-color: lightgray">♟</td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem">♟</td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem; background-color: lightgray">♟</td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem">♟</td>
-				</tr>
-				<tr>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem"></td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem; background-color: lightgray"></td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem"></td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem; background-color: lightgray"></td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem"></td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem; background-color: lightgray"></td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem"></td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem; background-color: lightgray"></td>
-				</tr>
-				<tr>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem; background-color: lightgray"></td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem"></td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem; background-color: lightgray"></td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem"></td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem; background-color: lightgray"></td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem"></td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem; background-color: lightgray"></td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem"></td>
-				</tr>
-				<tr>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem"></td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem; background-color: lightgray"></td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem"></td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem; background-color: lightgray"></td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem"></td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem; background-color: lightgray"></td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem"></td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem; background-color: lightgray"></td>
-				</tr>
-				<tr>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem; background-color: lightgray"></td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem"></td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem; background-color: lightgray"></td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem"></td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem; background-color: lightgray"></td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem"></td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem; background-color: lightgray"></td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem"></td>
-				</tr>
-				<tr>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem">♙</td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem; background-color: lightgray">♙</td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem">♙</td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem; background-color: lightgray">♙</td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem">♙</td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem; background-color: lightgray">♙</td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem">♙</td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem; background-color: lightgray">♙</td>
-				</tr>
 
-				<tr>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem; background-color: lightgray">♖</td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem">♘</td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem; background-color: lightgray">♗</td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem">♕</td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem; background-color: lightgray">♔</td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem">♗</td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem; background-color: lightgray">♘</td>
-					<td style="border: 1px solid black; width: 4rem; height: 4rem; font-size: 4rem">♖</td>
-				</tr>
-			</tbody>
-		</table>
-	</body>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Chess Board</title>
+</head>
+
+<body>
+	<table style="border: 1px solid black; margin: auto">
+		<tbody>
+			<tr>
+				<td style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw">♜</td>
+				<td
+					style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw; background-color: lightgray">
+					♞</td>
+				<td style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw">♝</td>
+				<td
+					style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw; background-color: lightgray">
+					♛</td>
+				<td style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw">♚</td>
+				<td
+					style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw; background-color: lightgray">
+					♝</td>
+				<td style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw">♞</td>
+				<td
+					style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw; background-color: lightgray">
+					♜</td>
+			</tr>
+			<tr>
+				<td
+					style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw; background-color: lightgray">
+					♟</td>
+				<td style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw">♟</td>
+				<td
+					style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw; background-color: lightgray">
+					♟</td>
+				<td style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw">♟</td>
+				<td
+					style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw; background-color: lightgray">
+					♟</td>
+				<td style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw">♟</td>
+				<td
+					style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw; background-color: lightgray">
+					♟</td>
+				<td style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw">♟</td>
+			</tr>
+			<tr>
+				<td style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw"></td>
+				<td
+					style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw; background-color: lightgray">
+				</td>
+				<td style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw"></td>
+				<td
+					style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw; background-color: lightgray">
+				</td>
+				<td style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw"></td>
+				<td
+					style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw; background-color: lightgray">
+				</td>
+				<td style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw"></td>
+				<td
+					style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw; background-color: lightgray">
+				</td>
+			</tr>
+			<tr>
+				<td
+					style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw; background-color: lightgray">
+				</td>
+				<td style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw"></td>
+				<td
+					style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw; background-color: lightgray">
+				</td>
+				<td style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw"></td>
+				<td
+					style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw; background-color: lightgray">
+				</td>
+				<td style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw"></td>
+				<td
+					style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw; background-color: lightgray">
+				</td>
+				<td style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw"></td>
+			</tr>
+			<tr>
+				<td style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw"></td>
+				<td
+					style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw; background-color: lightgray">
+				</td>
+				<td style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw"></td>
+				<td
+					style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw; background-color: lightgray">
+				</td>
+				<td style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw"></td>
+				<td
+					style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw; background-color: lightgray">
+				</td>
+				<td style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw"></td>
+				<td
+					style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw; background-color: lightgray">
+				</td>
+			</tr>
+			<tr>
+				<td
+					style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw; background-color: lightgray">
+				</td>
+				<td style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw"></td>
+				<td
+					style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw; background-color: lightgray">
+				</td>
+				<td style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw"></td>
+				<td
+					style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw; background-color: lightgray">
+				</td>
+				<td style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw"></td>
+				<td
+					style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw; background-color: lightgray">
+				</td>
+				<td style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw"></td>
+			</tr>
+			<tr>
+				<td style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw">♙</td>
+				<td
+					style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw; background-color: lightgray">
+					♙</td>
+				<td style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw">♙</td>
+				<td
+					style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw; background-color: lightgray">
+					♙</td>
+				<td style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw">♙</td>
+				<td
+					style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw; background-color: lightgray">
+					♙</td>
+				<td style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw">♙</td>
+				<td
+					style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw; background-color: lightgray">
+					♙</td>
+			</tr>
+
+			<tr>
+				<td
+					style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw; background-color: lightgray">
+					♖</td>
+				<td style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw">♘</td>
+				<td
+					style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw; background-color: lightgray">
+					♗</td>
+				<td style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw">♕</td>
+				<td
+					style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw; background-color: lightgray">
+					♔</td>
+				<td style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw">♗</td>
+				<td
+					style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw; background-color: lightgray">
+					♘</td>
+				<td style="border: 1px solid black; width: 4vw; height: 4vw; font-size: 4vw">♖</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+
 </html>
